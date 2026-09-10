@@ -9,10 +9,10 @@ import threading
 app = Flask(__name__)
 
 # =========================
-# PRINCE-MOHIT BANKING SYSTEM
+# MOHIT BANKING SYSTEM
 # =========================
 
-app.secret_key = "prince-mohit-banking-demo-key"
+app.secret_key = "mohit-banking-demo-key"
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
@@ -32,8 +32,8 @@ def create_database():
         "users": [
             {
                 "account_no": "ADMIN001",
-                "name": "Prince-Mohit Banking Admin",
-                "email": "admin@princemohitbanking.com",
+                "name": "Mohit Banking Admin",
+                "email": "admin@mohitbanking.com",
                 "phone": "",
                 "account_type": "Admin",
                 "password_hash": generate_password_hash("admin123"),
@@ -819,7 +819,7 @@ if __name__ == "__main__":
 
     print("")
     print("================================")
-    print("   PRINCE-MOHIT BANKING SYSTEM")
+    print("    MOHIT BANKING SYSTEM")
     print("================================")
     print("")
 
